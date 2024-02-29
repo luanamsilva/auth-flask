@@ -1,5 +1,6 @@
 from flask import Flask
 from database import db
+from models.user import User
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "your_secret_key"
